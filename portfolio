@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ragul K | Aspiring Systems Engineer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0B1120;
+      color: #E0E2E7;
+    }
+    .glass-effect {
+      background: rgba(22, 29, 47, 0.6);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .gradient-text {
+      background: linear-gradient(90deg, #38BDF8, #818CF8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .glow-effect {
+      box-shadow: 0 0 15px rgba(56, 189, 248, 0.3), 0 0 30px rgba(129, 140, 248, 0.2);
+    }
+  </style>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Portfolio of Ragul K - Computer Science Engineer | Aspiring Systems Engineer Trainee at Infosys | Skilled in Python, Java, C++, Web Development and Problem Solving.">
+  <meta name="keywords" content="Infosys Systems Engineer Trainee, Python Developer, Java Developer, C++ Programming, Web Development, Software Engineer, Ragul K Portfolio">
+</head>
+<body class="antialiased">
+
+  <!-- Header -->
+  <header class="fixed top-0 left-0 right-0 z-50 glass-effect">
+    <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold text-white">Ragul K.</a>
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="#about" class="text-gray-300 hover:text-sky-400 transition duration-300">About</a>
+        <a href="#projects" class="text-gray-300 hover:text-sky-400 transition duration-300">Projects</a>
+        <a href="#contact" class="bg-sky-500 hover:bg-sky-600 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container mx-auto px-6 pt-32">
+
+    <!-- Hero Section -->
+    <section id="hero" class="text-center py-20">
+      <div class="w-24 h-24 mx-auto rounded-full bg-gray-700 mb-6 overflow-hidden border-4 border-sky-500/50">
+        <img src="https://placehold.co/100x100/161D2F/E0E2E7?text=RK" alt="Ragul K" class="w-full h-full object-cover">
+      </div>
+      <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight">
+        Aspiring <span class="gradient-text">Systems Engineer Trainee</span><br>
+        with a Strong Foundation in IT & Development
+      </h1>
+      <p class="mt-6 text-lg md:text-xl max-w-3xl mx-auto text-gray-400">
+        I am a Computer Science Engineer passionate about building scalable IT solutions. With hands-on experience in 
+        <span class="gradient-text">Python, Java, C++, Web Technologies</span> and problem-solving, 
+        I aim to contribute my skills and adaptability to dynamic teams like Infosys.
+      </p>
+      <div class="mt-8 flex justify-center gap-4">
+        <a href="#projects" class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105">View My Projects</a>
+        <a href="ragul_resume.pdf" download class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105">Download Resume</a>
+      </div>
+    </section>
+
+    <!-- About & Skills Section -->
+    <section id="about" class="py-24">
+      <div class="grid md:grid-cols-5 gap-12 items-start">
+        <div class="md:col-span-2">
+          <h2 class="text-3xl font-bold text-white mb-4">About Me</h2>
+          <p class="text-gray-400 leading-relaxed">
+            I am Ragul K, a Computer Science Engineer with experience in software development, 
+            UX design, and IT project collaboration. My journey includes academic projects in 
+            <strong>AI, IoT, and Web Systems</strong> and internships in Python Development and SEO. 
+            This technical foundation, combined with leadership roles in college clubs, has strengthened 
+            my ability to analyze problems and design efficient solutions.
+          </p>
+        </div>
+        <div class="md:col-span-3">
+          <h2 class="text-3xl font-bold text-white mb-4">Technical Skillset</h2>
+          <div class="flex flex-wrap gap-4">
+            <!-- Programming Skills -->
+            <span class="bg-sky-500/20 text-sky-300 py-2 px-4 rounded-full">Python</span>
+            <span class="bg-sky-500/20 text-sky-300 py-2 px-4 rounded-full">Java</span>
+            <span class="bg-sky-500/20 text-sky-300 py-2 px-4 rounded-full">C / C++</span>
+            <span class="bg-sky-500/20 text-sky-300 py-2 px-4 rounded-full">HTML, CSS, JS</span>
+            <span class="bg-sky-500/20 text-sky-300 py-2 px-4 rounded-full">DBMS & SQL</span>
+            <span class="bg-indigo-500/20 text-indigo-300 py-2 px-4 rounded-full">Software Development Life Cycle</span>
+            <span class="bg-indigo-500/20 text-indigo-300 py-2 px-4 rounded-full">Agile & Team Collaboration</span>
+            <span class="bg-emerald-500/20 text-emerald-300 py-2 px-4 rounded-full">Problem Solving</span>
+            <span class="bg-emerald-500/20 text-emerald-300 py-2 px-4 rounded-full">Communication</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-24">
+      <h2 class="text-4xl font-bold text-white text-center mb-12">Highlighted Academic Projects</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- Project 1 -->
+        <div class="glass-effect rounded-2xl overflow-hidden group transform hover:-translate-y-2 transition-transform duration-300 glow-effect">
+          <div class="h-56 bg-gray-800 flex items-center justify-center">
+            <img src="https://placehold.co/600x400/161D2F/38BDF8?text=Voting+System" alt="Secure Voting System" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+          </div>
+          <div class="p-8">
+            <h3 class="text-2xl font-bold text-white mb-2">Secure Online Voting System</h3>
+            <p class="text-gray-400 mb-4">
+              A secure web-based platform integrated with UIDAI authentication, designed to ensure transparency, accessibility, and trust in the voting process.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-gray-700 text-gray-300 text-xs px-2.5 py-0.5 rounded-full">Python</span>
+              <span class="bg-gray-700 text-gray-300 text-xs px-2.5 py-0.5 rounded-full">Web Development</span>
+              <span class="bg-gray-700 text-gray-300 text-xs px-2.5 py-0.5 rounded-full">Security</span>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="glass-effect rounded-2xl overflow-hidden group transform hover:-translate-y-2 transition-transform duration-300 glow-effect">
+          <div class="h-56 bg-gray-800 flex items-center justify-center">
+            <img src="https://placehold.co/600x400/161D2F/818CF8?text=Student+System" alt="Student Management System" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+          </div>
+          <div class="p-8">
+            <h3 class="text-2xl font-bold text-white mb-2">Student Management System</h3>
+            <p class="text-gray-400 mb-4">
+              Console-based application built in Python, designed for efficient student record handling, reducing administrative effort and error.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-gray-700 text-gray-300 text-xs px-2.5 py-0.5 rounded-full">Python</span>
+              <span class="bg-gray-700 text-gray-300 text-xs px-2.5 py-0.5 rounded-full">Data Structures</span>
+              <span class="bg-gray-700 text-gray-300 text-xs px-2.5 py-0.5 rounded-full">Problem Solving</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="text-center py-24">
+      <h2 class="text-4xl font-bold text-white leading-tight">
+        Ready to Contribute to<br>
+        <span class="gradient-text">Infosys & Beyond</span>
+      </h2>
+      <p class="mt-6 text-lg md:text-xl max-w-2xl mx-auto text-gray-400">
+        I am seeking opportunities as a <strong>Systems Engineer Trainee</strong> where I can apply my technical expertise and continuously learn. 
+        If you’re looking for a dedicated and adaptable engineer, let’s connect.
+      </p>
+      <div class="mt-8 flex justify-center gap-6">
+        <a href="mailto:sreeneragul@gmail.com" class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-4 px-10 text-lg rounded-lg transition duration-300 transform hover:scale-105 inline-block">
+          sreeneragul@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/ragul-k-a84716101" target="_blank" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-4 px-10 text-lg rounded-lg transition duration-300 transform hover:scale-105 inline-block">
+          LinkedIn Profile
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10 mt-12">
+    <div class="container mx-auto px-6 py-6 text-center text-gray-500">
+      <p>&copy; 2025 Ragul K. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
